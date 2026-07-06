@@ -1,0 +1,10 @@
+# PDFs are coursework handouts, not source code — exclude from language stats
+*.pdf linguist-vendored
+
+# macOS metadata files
+.DS_Store linguist-vendored
+
+# Ensure C++ source files are counted correctly
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++
